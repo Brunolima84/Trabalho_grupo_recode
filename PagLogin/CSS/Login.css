@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    width: 100%;
+    background-image: url(../IMG/FundoLogin.jpg);
+    background-color: rgb(120, 200, 230);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.principal{
+    background-color: rgba(230,230, 230,0.8);
+    width: 450px;
+    height: 600px;
+    margin: 25px auto;
+    border-radius: 15px;
+}
+
+h1.titulo{
+    height: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 52px;
+    text-align: center;
+    padding-top: 50px ;
+    color: #00474b;
+}
+
+div.conteudo{
+    text-align: center;
+}
+input.EstiloEmail{
+    height: 30px;
+    width: 250px;
+    border-radius: 8px;
+    background-color: #EFEFEF;
+    border: none;
+    margin-bottom: 17px;
+}
+input.EstiloSenha{
+    height: 30px;
+    width: 250px;
+    border-radius: 8px;
+    background-color: #EFEFEF;
+    border: none;
+    margin-bottom: 17px;
+}
+button.ConfirmarLogin{
+    height: 45px;
+    width: 250px;
+    border: none;
+    color: white;
+    background-color: #00474b;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+a.EstiloRecuperacao{
+    display: block;
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 17px;
+}
+
+a.EstiloCadastro{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 100px;
+}
+div.EstiloOpcao p{
+    font-size: 14px;
+    color: gray;
+}
+div.EstiloOpcao img{
+    margin: 0 10px;
+}

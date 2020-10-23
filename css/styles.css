@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilizando Header */
+
+.header-menu-principal {
+    padding: 10px;
+}
+
+/* .header-menu-principal {
+    background-image: url(banner3.png);
+    background-size: cover;
+    height: 400px;
+} */
+
+.img-banner {
+    width: 100%;
+    height: 400px;
+
+}
+
+.img-logo{
+    width: 150px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgba(104, 104, 104, 0.6);
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #9799A6; 
+}
+
+.nav-link:hover {
+    color: #FFF;
+    background-color: rgba(104, 104, 104, 0.6);
+}
+
+.nav-link-perfil {
+    background-color: #00474B;
+    color:#ffffff;   
+    border: 1px solid #00474B; 
+}
+
+/* Estilizando Main - Busca */
+
+.filtro-cores {
+    width: 70%;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+}
+
+.filtro-rosa {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: #FF0099;
+    font-weight: bold;
+    background-color: #FFF;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #FF0099;   
+}
+
+.filtro-rosa:hover {
+    color: #FFF;
+    background-color:#FF0099;
+}
+
+.filtro-verde {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: #83F52C;
+    font-weight: bold;
+    background-color: #FFF;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #83F52C;   
+}
+
+.filtro-verde:hover {
+    color: #FFF;
+    background-color:#83F52C;
+}
+
+.filtro-laranja {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: #FF6600;
+    font-weight: bold;
+    background-color: #FFF;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #FF6600;   
+}
+
+.filtro-laranja:hover {
+    color: #FFF;
+    background-color:#FF6600;
+}
+
+.filtro-amarelo {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: #F3F315;
+    font-weight: bold;
+    background-color: #FFF;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #F3F315;   
+}
+
+.filtro-amarelo:hover {
+    color: #FFF;
+    background-color:#F3F315;
+}
+
+.filtro-lilas {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: #C416EF;
+    font-weight: bold;
+    background-color: #FFF;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #C416EF;   
+}
+
+.filtro-lilas:hover {
+    color: #FFF;
+    background-color:#C416EF;
+}
+
+.filtro-busca {
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+.input-busca {
+    width: 800px;
+    border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.btn-busca {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    cursor: pointer;
+}
+
+.input-busca, .btn-busca {
+	outline: 0;
+    border: 1px solid #9799A6;  
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+/* Estilizando Main - Conteúdo */
+.titulo-secao {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.box-conteudo {
+    margin-right: 10px;
+}
+
+.img-conteudo {
+    width: 210px;
+}
+
+.conteudo-descricao {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+/* Responsividade mobile */
+
+@media(max-width: 600px) {
+
+  
+    .nav-link {
+        text-decoration: none;
+        color: rgba(104, 104, 104, 0.6);
+        background-color: #FFF;
+        padding: 10px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-radius: initial;
+        border-bottom: 1px solid #9799A6; 
+    }
+
+    .nav-link-perfil {
+        background-color: #00474B;
+        color:#ffffff;   
+    }
+
+    .input-busca {
+        width: 400px;
+    }
+
+}
